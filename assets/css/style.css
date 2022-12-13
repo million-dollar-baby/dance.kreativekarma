@@ -4,6 +4,7 @@
 # General
 --------------------------------------------------------------*/
 body {
+	margin:0px;
   font-family: "Open Sans", sans-serif;
 background-image: linear-gradient(toright, #c6ffdd, #fbd786, #f7797d);
 }
