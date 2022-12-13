@@ -4,7 +4,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-	margin:0px;
+	
   font-family: "Open Sans", sans-serif;
 background-image: linear-gradient(toright, #c6ffdd, #fbd786, #f7797d);
 }
@@ -122,7 +122,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-	margin: -20px;
+	
   height: 80px;
   transition: all 0.5s;
   z-index: 997;
