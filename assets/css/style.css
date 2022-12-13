@@ -8,6 +8,7 @@ body {
   font-family: "Open Sans", sans-serif;
 background: rgb(255,119,0);
 background: linear-gradient(54deg, rgba(255,119,0,1) 45%, rgba(255,200,0,1) 100%, rgba(255,239,0,1) 100%, rgba(0,212,255,1) 100%);
+	position:fixed;
 }
 
 a {
@@ -28,9 +29,7 @@ h5,
 h6 {
   font-family: "Poppins", Lora Regular;
 }
-p{
-color:#fff;
-}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
