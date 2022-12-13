@@ -1805,10 +1805,7 @@ banner
 --------------------------------------------- 
 */
 
-.main-banner {
-padding: 0 0 0 0;
-  height: 100vh;
-}
+
 
 .main-banner .caption {
   text-align: center;
