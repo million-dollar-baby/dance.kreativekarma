@@ -1837,7 +1837,7 @@ section {
     max-height: 100vh;
     object-fit: cover;
     z-index: -1;
-	position: fixed;
+	
 }
 
 #bg-video::-webkit-media-controls {
