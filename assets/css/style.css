@@ -1837,6 +1837,7 @@ section {
     max-height: 100vh;
     object-fit: cover;
     z-index: -1;
+	position: fixed;
 }
 
 #bg-video::-webkit-media-controls {
@@ -1845,7 +1846,6 @@ section {
 
 .video-overlay {
     position: absolute;
-	position: fixed;
      background-color: rgba(255,140,0,0.8);
     top: 0;
     left: 0;
