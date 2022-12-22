@@ -18,7 +18,7 @@ a:hover {
 }
 
 span{
-	
+
 	font-family: 'Lora', serif;
     line-height: 1.3em;
     font-size: 18px;
@@ -178,7 +178,7 @@ p{
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -312,7 +312,7 @@ p{
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -654,13 +654,13 @@ p{
 #section11 {
  background-color: #ffbf69;
  border-radius: 20px;
- 
+
 }
 
 section {
   padding: 80px 0;
   overflow: hidden;
- 
+
 }
 
 .section-bg {
@@ -1061,7 +1061,7 @@ section {
 .gallery{
 	background-color:#000000;
 	padding:100px 0px;
-	
+
 }
 
 .gallery .gallery-item {
@@ -1185,6 +1185,8 @@ section {
     width: 80%;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Team
@@ -1468,13 +1470,13 @@ section {
 	background: #fff;
 	padding: 40px 30px;
 	border-radius: 20px;
-	
+
 }
 
 .contact .info {
   width: 100%;
   background: #fff;
-  
+
 }
 
 .contact .info i {
@@ -1489,7 +1491,7 @@ section {
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
-  
+
 }
 
 .contact .info h4 {
@@ -1521,7 +1523,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
- 
+
 }
 
 .contact .php-email-form .form-group {
@@ -1808,7 +1810,7 @@ section {
         opacity:0;
         transform:translate3d(0,-100%,0);
     }
-	
+
     to {
         -webkit-transform:none;
         opacity:1;
@@ -1843,10 +1845,10 @@ section {
 }
 
 
-/* 
+/*
 ---------------------------------------------
 banner
---------------------------------------------- 
+---------------------------------------------
 */
 
 
@@ -1862,7 +1864,6 @@ banner
 .main-banner .caption h6 {
   margin-top: 0px;
   font-size: 18px;
- 
   font-weight: 800;
   color: #fff;
   letter-spacing: 0.5px;
@@ -1872,14 +1873,20 @@ banner
   margin-top: 30px;
   margin-bottom: 25px;
   font-size: 84px;
-  
   font-weight: 500;
   color: #fff;
- 
+
 }
 
 .main-banner .caption h2 em {
   font-style: normal;
   color: #ed563b;
   font-weight: 900;
+}
+
+@media (max-width: 992px) {
+  #banner-heading{
+    font-size: 50px;
+  }
+  }
 }
