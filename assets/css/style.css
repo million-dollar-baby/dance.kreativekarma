@@ -17,11 +17,19 @@ a:hover {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 span{
 	
 	font-family: 'Lora', serif;
     line-height: 1.3em;
     font-size: 18px;
+=======
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+background-color:#000000;
+>>>>>>> 972683273caa1b8a3c8db67a85fa7ba8f1c81659
 }
 
 h1,
@@ -1827,6 +1835,7 @@ section {
     max-height: 100vh;
     object-fit: cover;
     z-index: -1;
+	
 }
 
 #bg-video::-webkit-media-controls {
@@ -1835,7 +1844,11 @@ section {
 
 .video-overlay {
     position: absolute;
+<<<<<<< HEAD
     background-color: rgba(255,140,0,0.8);
+=======
+     background-color: rgba(255,140,0,0.8);
+>>>>>>> 972683273caa1b8a3c8db67a85fa7ba8f1c81659
     top: 0;
     left: 0;
     bottom: 7px;
