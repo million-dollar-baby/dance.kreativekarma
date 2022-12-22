@@ -1,10 +1,10 @@
 
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
 body {
-background:#ff9f1c;
+  font-family: "Open Sans", sans-serif;
+
+background: #000000;
 }
 
 a {
@@ -15,6 +15,13 @@ a {
 a:hover {
   color: #34e5a6;
   text-decoration: none;
+}
+
+span{
+	
+	font-family: 'Lora', serif;
+    line-height: 1.3em;
+    font-size: 18px;
 }
 
 h1,
@@ -54,7 +61,7 @@ p{
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #EE6C4D;
+  border: 6px solid #1acc8d;
   border-top-color: #d2f9eb;
   border-radius: 50%;
   width: 60px;
@@ -116,6 +123,7 @@ p{
   opacity: 1;
 }
 
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
@@ -170,11 +178,10 @@ p{
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation
+* Desktop Navigation 
 */
 .navbar {
   padding: 0;
-
 }
 
 .navbar ul {
@@ -217,7 +224,7 @@ p{
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #EE6C4D;
+  background-color: #1acc8d;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -234,7 +241,7 @@ p{
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #000000;
+  color: #fff;
 }
 
 .navbar .dropdown ul {
@@ -272,7 +279,7 @@ p{
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #EE6C4D;
+  color: orange;
 }
 
 .navbar .dropdown:hover>ul {
@@ -305,7 +312,7 @@ p{
 }
 
 /**
-* Mobile Navigation
+* Mobile Navigation 
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -414,7 +421,7 @@ p{
 .navbar-mobile .dropdown .dropdown ul a:hover,
 .navbar-mobile .dropdown .dropdown ul .active:hover,
 .navbar-mobile .dropdown .dropdown ul li:hover>a {
-  color: #EE6C4D;
+  color: #1acc8d;
 }
 
 .navbar-mobile .dropdown>.dropdown-active,
@@ -422,9 +429,7 @@ p{
   display: block;
 }
 
-
-/*
---------------------------------------------------------------
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------
 #hero {
@@ -455,7 +460,7 @@ p{
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #EE6C4D;
+  border-bottom: 4px solid #1acc8d;
 }
 
 #hero h2 {
@@ -474,7 +479,7 @@ p{
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #EE6C4D;
+  background: #1acc8d;
 }
 
 #hero .btn-get-started:hover {
@@ -641,30 +646,29 @@ p{
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+#bio_details{
+	background:#fff;
+	padding:120px 0px;
+}
+
+#section11 {
+ background-color: #ffbf69;
+ border-radius: 20px;
+ 
+}
+
 section {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
+ 
 }
 
 .section-bg {
   background-color: #ffbf69;
-	margin:50px;
-	border-radius: 20px;
+    margin: 50px;
+    border-radius: 20px;
 }
 
-#about, #hero{
-  background-color: #fff;
-  backdrop-filter: blur(25px);
-}
-
-#contact{
-  vertical-align: middle;
-}
-
-#contactform{
-  background-color: #fff;
-  border-radius: 25px;
-}
 
 .section-title {
   padding-bottom: 40px;
@@ -687,16 +691,16 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #EE6C4D;
+  background: #1acc8d;
   margin: 4px 10px;
 }
 
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: 700;
-  text-transform: none;
+  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #010483;
 }
@@ -767,12 +771,12 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding: 80px 0 80px 0;
+  padding: 60px 0 60px 0;
 }
 
 .about .icon-boxes h3 {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   color: #010483;
   margin-bottom: 15px;
 }
@@ -809,7 +813,7 @@ section {
 
 .about .icon-box .title {
   margin-left: 85px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 10px;
   font-size: 18px;
 }
@@ -820,7 +824,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #EE6C4D;
+  color: #1acc8d;
 }
 
 .about .icon-box .description {
@@ -830,11 +834,9 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
-  background-size: cover;
-  height: 300px;
-	width: 700px;
-	border-radius: 10px;
+  background: url("../img/gallery/about.png") center center no-repeat;
+  background-size: contain;
+  min-height: 300px;
 }
 
 .about .play-btn {
@@ -934,12 +936,6 @@ section {
   }
 }
 
-.text-white{
-	padding: 20px 0px;
-  color: #000000 !important;
-}
-
-
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -951,31 +947,17 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.icon-box{
-	border-radius: 10px;
-	background-color: orange;
-}
-
 .features .icon-box i {
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
 }
 
-.icon-box p{
-	font-size: 16px;
-}
-
-.icon-box h4{
-	font-size: 20px;
-	font-weight: 600;
-}
-
-.features .icon-box h4 {
-  font-weight: 500;
+.features .icon-box h3 {
+  font-weight: 700;
   margin: 0;
   padding: 0;
-  line-height: 1.3em;
+  line-height: 1;
   font-size: 16px;
 }
 
@@ -1014,7 +996,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 20px;
-  background: #EE6C4D;
+  background: #1acc8d;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -1065,7 +1047,7 @@ section {
 .details .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #EE6C4D;
+  color: #1acc8d;
 }
 
 .details .content p:last-child {
@@ -1075,6 +1057,13 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+
+.gallery{
+	background-color:#000000;
+	padding:100px 0px;
+	
+}
+
 .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #fff;
@@ -1182,7 +1171,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #EE6C4D;
+  background-color: #1acc8d;
 }
 
 @media (min-width: 1024px) {
@@ -1201,12 +1190,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  padding: 30px 150px;
-}
-
-.team-header{
-	padding: 60px 0px;
-	color: #ffffff !important;
+  background: #000000;
 }
 
 .team .member {
@@ -1240,7 +1224,7 @@ section {
 }
 
 .team .member h4 {
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
   color: #01036f;
@@ -1276,7 +1260,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #EE6C4D;
+  color: #1acc8d;
 }
 
 .team .member .social i {
@@ -1309,7 +1293,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #EE6C4D;
+  color: #1acc8d;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1341,7 +1325,7 @@ section {
 }
 
 .pricing ul i {
-  color: #EE6C4D;
+  color: #1acc8d;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1359,7 +1343,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #EE6C4D;
+  background: #1acc8d;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 50px;
@@ -1378,7 +1362,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #EE6C4D;
+  background: #1acc8d;
 }
 
 .pricing .advanced {
@@ -1390,7 +1374,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #EE6C4D;
+  background: #1acc8d;
   color: #fff;
 }
 
@@ -1459,7 +1443,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #EE6C4D;
+  color: #1acc8d;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1479,9 +1463,18 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+#contact_bg{
+	background: #fff;
+	padding: 40px 30px;
+	border-radius: 20px;
+	
+}
+
 .contact .info {
   width: 100%;
   background: #fff;
+  
 }
 
 .contact .info i {
@@ -1496,6 +1489,7 @@ section {
   align-items: center;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
+  
 }
 
 .contact .info h4 {
@@ -1527,7 +1521,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+ 
 }
 
 .contact .php-email-form .form-group {
@@ -1601,7 +1595,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #34e5a6;
+  background: #000000;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1782,10 +1776,11 @@ section {
 
 
 .services .icon-box {
-  text-align: top;
+  text-align: center;
   padding: 40px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  border-radius:10px;
 }
 
 .services .icon-box .icon {
@@ -1807,18 +1802,13 @@ section {
     min-height:500px;
 }
 
-#hero{
-	padding: 200px;
-	line-height: 1em;
-}
-
 @keyframes gm-slidein {
     from {
         -webkit-transform:translate3d(0,-100%,0);
         opacity:0;
         transform:translate3d(0,-100%,0);
     }
-
+	
     to {
         -webkit-transform:none;
         opacity:1;
@@ -1845,7 +1835,7 @@ section {
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(199, 106, 35, 0.76);
+    background-color: rgba(255,140,0,0.8);
     top: 0;
     left: 0;
     bottom: 7px;
@@ -1853,14 +1843,11 @@ section {
 }
 
 
-
-
-/*
+/* 
 ---------------------------------------------
 banner
----------------------------------------------
+--------------------------------------------- 
 */
-
 
 
 .main-banner .caption {
@@ -1875,8 +1862,8 @@ banner
 .main-banner .caption h6 {
   margin-top: 0px;
   font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 600;
+ 
+  font-weight: 800;
   color: #fff;
   letter-spacing: 0.5px;
 }
@@ -1885,20 +1872,14 @@ banner
   margin-top: 30px;
   margin-bottom: 25px;
   font-size: 84px;
-
+  
   font-weight: 500;
   color: #fff;
-  letter-spacing: 1px;
+ 
 }
 
 .main-banner .caption h2 em {
   font-style: normal;
   color: #ed563b;
   font-weight: 900;
-}
-
-
-.banner_caption{
-	color: white !important;
-	padding: 20px 150px;
 }
